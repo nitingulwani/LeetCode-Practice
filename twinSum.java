@@ -29,3 +29,39 @@ class Solution {
         return maximumSum;
     }
 }
+
+// class Solution {
+//     public int pairSum(ListNode head) {
+//         ListNode first = head;
+//         ListNode second = first;
+//         int n = 0,sum=0;
+//         ListNode temp = head;
+        
+//         while(temp.next!=null){
+//             temp = temp.next;
+//             n++;
+//         }
+
+//         for(int i = 0;i<n/2; i++){
+//             reverse(head);
+//         }
+
+//         for(int i = 0;i<n/2; i++){
+//             sum+=
+//         }
+
+//     }
+//     public ListNode reverse(ListNode head){
+//         ListNode prev = null;
+//         ListNode curr=head;
+//         ListNode temp;
+
+//         while(curr.next!=null){
+//             temp=curr.next;
+//             curr.next.=prev;
+//             prev=curr;
+//             curr=temp;
+//         }
+//         return prev;
+//     }
+// }
