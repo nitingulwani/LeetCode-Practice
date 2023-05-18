@@ -1,3 +1,5 @@
+//Here we reverse the second half of the list and then compare it with the elements of the first half
+
 class Solution {
     public int pairSum(ListNode head) {
         ListNode slow = head;
