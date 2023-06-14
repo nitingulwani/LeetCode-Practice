@@ -4,7 +4,7 @@ public class mergeSortedLists {
         ListNode ans = dummy;
 
         while(l1!=null && l2!= null){
-            if(l1.val <l2.val){
+            if(l1.val <l2.valtwo){
                 ans.next=l1;
                 ans = ans.next;
                 l1 = l1.next;
