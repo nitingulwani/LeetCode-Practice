@@ -10,19 +10,6 @@ import java.util.*;
             }
             if(c==2) return true;
             else return false;
-            
-            // while(n--){
-            //     for(int i = n; i>=0; i--){
-            //          if(n%i == 0){
-            //              break;
-            //          }  
-            //          else{
-            //              i++;
-            //          }
-                     
-            //     }
-               
-            // }
         }
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
