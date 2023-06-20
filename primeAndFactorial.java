@@ -1,14 +1,16 @@
+//find the prime numbers till the number n and also find each prime numbers factorial
+
 import java.util.*;
 
 public class primeAndFactorial {
     static ArrayList<Integer> list = new ArrayList<>();
 
     public static boolean isPrime(int n) {
-        // Corner case
+
         if (n <= 1)
             return false;
 
-        // Check from 2 to sqrt(n)
+
         for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0)
                 return false;
