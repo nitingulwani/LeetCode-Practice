@@ -1,3 +1,7 @@
+//Accenture Question
+// i/p = 1C0C1A0B1
+// o/p = 1
+
 import java.util.*;
 
 public class binaryOperations {
