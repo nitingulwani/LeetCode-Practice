@@ -13,9 +13,7 @@ public class hyphenToBeginning {
                 count+=1;
             }
             else{
-             
-                    st.push(s.charAt(i));
-                
+                st.push(s.charAt(i));
             }
         }
         StringBuilder sb = new StringBuilder();
