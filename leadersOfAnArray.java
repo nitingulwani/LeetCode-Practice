@@ -26,8 +26,6 @@ public class leadersOfAnArray {
             arr[i] = sc.nextInt();
         }
 
-        leaders(arr, n);
-
-
+        System.out.println(leaders(arr, n));
     }
 }
