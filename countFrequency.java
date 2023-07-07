@@ -25,9 +25,9 @@ public class countFrequency {
             totalCount += entry.getValue();
         }
 
-        // Storing elements in an array based on frequency in descending order
         int[] resultArray = new int[totalCount];
         int index = 0;
+         
         for (Map.Entry<Integer, Integer> entry : entryList) {
             int frequency = entry.getValue();
             int element = entry.getKey();
